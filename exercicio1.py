@@ -13,7 +13,7 @@ if IdadeCliente >= 21 and IdadeCliente <= 65 and RendaMensalCliente >= ValorDeEm
 else:
     situaçaoEmprestimo = "Emprestimo Negado"
 
-print("\n================================================2")
+print("\n================================================")
 print(f"\nCliente: {NomeCliente}")
 print(f"Valor de parcela: {ValorDeEmprestimo/10:.2f} ")
 print(f"Situação: {situaçaoEmprestimo}")
